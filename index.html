@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conversor de Temperatura</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Conversor de Temperaturas</h1>
+        <p>Faça a conversão de maneira simples e rápida</p>
+      </div>
+
+      <div class="kelvin grid">
+        <div class="kelvin-celsius position">
+          <label for="k-c">Kelvin em Celsius</label><br />
+          <input type="number" id="k-c-1" placeholder="K" />
+          <img src="./media/right_arrow_icon.svg" alt="" />
+          <input type="number" id="k-c-2" placeholder="°C" />
+          <br />
+          <button type="submit" id="k-c">CALCULAR</button>
+        </div>
+        <div class="kelvin-fahrenheit position">
+          <label for="k-f">Kelvin em Fahrenheit</label><br />
+          <input type="number" id="k-f-1" placeholder="K" />
+          <img src="./media/right_arrow_icon.svg" alt="" />
+          <input type="number" id="k-f-2" placeholder="°F" />
+          <br />
+          <button type="submit" id="k-f">CALCULAR</button>
+        </div>
+      </div>
+
+      <div class="celsius grid">
+        <div class="celsius-kelvin position">
+          <label for="c-k">Celsius em Kelvin</label><br />
+          <input type="number" id="c-k-1" placeholder="°C" />
+          <img src="./media/right_arrow_icon.svg" alt="" />
+          <input type="number" id="c-k-2" placeholder="K" />
+          <br />
+          <button type="submit" id="c-k">CALCULAR</button>
+        </div>
+        <div class="celsius-fahrenheit position">
+          <label for="c-f">Celsius em Fahrenheit</label><br />
+          <input type="number" id="c-f-1" placeholder="°C" />
+          <img src="./media/right_arrow_icon.svg" alt="" />
+          <input type="number" id="c-f-2" placeholder="°F" />
+          <br />
+          <button type="submit" id="c-f">CALCULAR</button>
+        </div>
+      </div>
+
+      <div class="fahrenheit grid">
+        <div class="fahrenheit-kelvin position">
+          <label for="f-k">Fahrenheit em Kelvin</label><br />
+          <input type="number" id="f-k-1" placeholder="°F" />
+          <img src="./media/right_arrow_icon.svg" alt="" />
+          <input type="number" id="f-k-2" placeholder="K" />
+          <br />
+          <button type="submit" id="f-k">CALCULAR</button>
+        </div>
+        <div class="fahrenheit-celsius position">
+          <label for="f-c">Fahrenheit em Celsius</label><br />
+          <input type="number" id="f-c-1" placeholder="°F" />
+          <img src="./media/right_arrow_icon.svg" alt="" />
+          <input type="number" id="f-c-2" placeholder="°C" />
+          <br />
+          <button type="submit" id="f-c">CALCULAR</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
